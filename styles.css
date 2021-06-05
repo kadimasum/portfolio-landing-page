@@ -107,6 +107,10 @@ button {
     height: auto;
 }
 
+.secondaryContainer h2 {
+    margin-bottom: 20px;
+}
+
 /* My Projects */
 
 .myProjects {
@@ -121,6 +125,11 @@ button {
     border: 1px solid white;
     box-shadow: 0px 0px 5px white;
 }
+
+.myProjects h3:hover {
+    background-color: brown;
+}
+
 a {
     background-color: none;
     text-decoration: none;
