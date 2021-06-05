@@ -104,7 +104,7 @@ button {
     text-align: center;
     padding: 40px;
     margin-top: 130px;
-    height: 400px;
+    height: auto;
 }
 
 /* My Projects */
