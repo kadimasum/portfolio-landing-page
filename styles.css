@@ -18,7 +18,7 @@ body {
 
 .landingContainer {
     margin: 40px auto;
-    width: 90%;
+   width: 90%;
    
 }
 
@@ -27,6 +27,7 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .heroSection div {
@@ -43,6 +44,7 @@ body {
     border-top: 20px solid rgb(1, 4, 28);
     border-radius: 4px;
     align-items: right;
+  
 }
 
 
@@ -51,34 +53,42 @@ body {
 
 .aboutMe {
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px white;
+    margin-right: 5%;
+    height: 80vh;
+   
+    
 }
 .aboutMeSections {
     width: 100%;
+    height: 60vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;
-    box-shadow: 0px 0px 5px white;
-    padding: 20px 60px 20px 20px;
+    align-items: center;
+    padding: 20px;
     border-radius: 4px;
+  
 }
 
 .aboutMeSections h1 {
     text-align: left;
+    font-size: 60px;
 }
 
 #moreAbout{
-    border-left:  1px solid white;
+    /* border-left:  1px solid white;
     border-top:  1px solid white;
     border-right:  1px solid white;
-    border-bottom:  1px solid white;
+    border-bottom:  1px solid white; */
     padding: 20px;
-    margin-left: 0px;
+    width: 100%;
+    height: 100%;
     margin-top: 20px;
-    font-size: 14px;
-    
+    font-size: 18px;
+    overflow: auto;
 }
 
 .aboutMeSections h3 {
