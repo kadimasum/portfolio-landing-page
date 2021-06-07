@@ -18,7 +18,7 @@ body {
 
 .landingContainer {
     margin: 40px auto;
-   width: 90%;
+    width: 90%;
    
 }
 
@@ -28,6 +28,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+  
 }
 
 .heroSection div {
@@ -115,7 +116,7 @@ body {
     padding-bottom: 20px;
 }
 
-button {
+/* button {
     width: 100%;
     padding: 10px 20px;
     box-shadow: 0px 0px 5px white;
@@ -124,7 +125,7 @@ button {
     border-radius: 4px;
     border: none;
     margin-top: 10px;
-}
+} */
 
 
 /* Secondary Container */
@@ -176,6 +177,7 @@ a {
     }
 
     .heroSection {
+       
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
@@ -197,4 +199,14 @@ a {
         
     }
 
+    .imgProfile {
+        margin-right: 5%;
+    }
+    .imgProfile img {
+        
+        align-items: center;
+    
+    }
+
+    
 }
